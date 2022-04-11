@@ -5,4 +5,12 @@ export default function World() {
         </>
     );
 }
+
+export function World02() {
+    return (
+        <>
+            <h3>World</h3>
+        </>
+    );
+}
 //export default World;

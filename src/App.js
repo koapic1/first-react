@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import Hello from "./Hello";
 import World from "./World";
 import "./App.css"; //ES6 문법
@@ -22,7 +21,7 @@ function App() {
             <div className="App">
                 {/* <Hello></Hello> */}
                 <Hello />
-                <World />
+                {/* <World /> */}
                 {/* component는 반복된 코드를 재사용하기 위해 사용 */}
                 {/* <header className="App-header">
                     <h1>
