@@ -20,7 +20,11 @@ function App() {
         <>
             <div className="App">
                 {/* <Hello></Hello> */}
-                <Hello />
+                <Hello userAge={10} />
+                <Hello userAge={20} />
+                <Hello userAge={15} />
+                <Hello userAge={19} />
+                <Hello userAge={100} />
                 {/* <World /> */}
                 {/* component는 반복된 코드를 재사용하기 위해 사용 */}
                 {/* <header className="App-header">
